@@ -12,9 +12,9 @@ public partial class ListarEmpleados : ContentPage
 
     }
 
-    private void NuevoEmpleadoBoton_Clicked(object sender, EventArgs e)
+    private async void NuevoEmpleadoBoton_Clicked(object sender, EventArgs e)
     {
-
+        await Navigation.PushAsync(new CrearEmpleado());
     }
 
 

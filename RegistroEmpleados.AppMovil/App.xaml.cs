@@ -8,7 +8,7 @@ namespace RegistroEmpleados.AppMovil
         {
             InitializeComponent();
 
-            MainPage = new Vistas.ListarEmpleados();
+            MainPage = new NavigationPage(new ListarEmpleados());
         }
     }
 }
